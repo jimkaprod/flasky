@@ -1,0 +1,13 @@
+virtual env
+$sudo apt-get install python3-venv
+ex : $python3 -m venv virtual-environment-name
+$python3 -m venv venv
+Activate
+$source venv/bin/activate
+Desactiver:
+$deactivate
+Pip generer requirements.txt
+$pip freeze >requirements.txt
+Reinstal
+$pip install -r requirements.txt
+
