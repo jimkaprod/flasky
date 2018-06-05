@@ -11,3 +11,10 @@ $pip freeze >requirements.txt
 Reinstal
 $pip install -r requirements.txt
 
+MIGRATION SCRIPT (ALEMBIC)
+- Mettre à jour le model
+- $flask db migrate
+- voir le script générer pour voir les changements, en cas de suppression d'une colonne attention à la perte des données
+- $flask db upgrade
+
+
